@@ -1,0 +1,89 @@
+body {
+  background-color: #f3e8de;
+}
+
+.card {
+  margin: 10px;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-link {
+  color: #53331e;
+}
+
+.nav-link:hover {
+  color: #b74c2c;
+}
+
+.enlaces_footer {
+  text-decoration: none;
+  color: #B74c2c;
+}
+
+.enlaces_footer:hover {
+  color: #d58f52;
+}
+
+.card-title {
+  color: #b74c2c;
+}
+
+.texto_footer {
+  margin-top: 5px;
+  color: #f3e8de;
+}
+
+.col {
+  margin-bottom: 40px;
+}
+
+.row {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.carousel {
+  margin: 10px;
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.portfolio-item:hover .overlay {
+  opacity: 1;
+}
+
+.btn-ver-mas {
+  margin-top: 10px;
+}
