@@ -1,0 +1,19 @@
+// Modulos a Importar
+@use "./colores";
+
+// Específicos
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+  
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.portfolio-item:hover img {
+    transform: scale(1.05);
+}

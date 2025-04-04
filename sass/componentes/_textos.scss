@@ -1,0 +1,11 @@
+// Modulos a Importar
+@use "./colores";
+
+// Específicos
+.texto-primario {
+    color: colores.$color_naranja;
+}
+
+.texto-secundario {
+    color: colores.$color_marron;
+}

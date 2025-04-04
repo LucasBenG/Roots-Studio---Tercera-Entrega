@@ -1,47 +1,35 @@
-// Colores - Variable
-$color_naranja: #b74c2c;
-$color_marron: #53331e;
-$color_ceniza: #f3e8de;
-$color_mostaza: #d58f52;
-$color_chocolate: hsl(29, 51%, 15%); 
+@use "./componentes/colores";
+@use "./componentes/footer";
+@use "./componentes/textos";
+@use "./componentes/generales";
 
 body {
-  background-color: $color_ceniza;
+  background-color: colores.$color_ceniza;
 }
 
 .card {
   margin: 10px;
 }
 
-footer {
-  bottom: 0;
-  width: 100%;
-}
-
 .nav-link {
-  color: $color_marron;
+  color: colores.$color_marron;
 }
 
 .nav-link:hover {
-  color: $color_naranja;
+  color: colores.$color_naranja;
 }
 
 .enlaces_footer {
   text-decoration: none;
-  color: $color_naranja;
+  color: colores.$color_naranja;
 }
 
 .enlaces_footer:hover {
-  color: $color_mostaza;
+  color: colores.$color_mostaza;
 }
 
 .card-title {
-  color: $color_naranja;
-}
-
-.texto_footer {
-  margin-top: 5px;
-  color: $color_ceniza;
+  color: colores.$color_naranja;
 }
 
 .col {
@@ -91,27 +79,5 @@ footer {
   opacity: 1;
 }
 
-.btn-ver-mas {
-  margin-top: 10px;
-}
 
-.texto-primario {
-    color: #b74c2c;
-}
-
-.texto-secundario {
-    color: #53331e;
-}
-
-.boton-root {
-    background-color: $color_naranja;
-    border: $color_naranja;
-    color: $color_ceniza;
-}
-
-.boton-root:hover {
-    background-color: $color_mostaza;
-    border: $color_mostaza;
-    color: $color_marron;
-}
 

@@ -1,3 +1,30 @@
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.texto_footer {
+  margin-top: 5px;
+  color: #f3e8de;
+}
+
+.enlaces_footer {
+  text-decoration: none;
+  color: #b74c2c;
+}
+
+.enlaces_footer:hover {
+  color: #d58f52;
+}
+
+.texto-primario {
+  color: #b74c2c;
+}
+
+.texto-secundario {
+  color: #53331e;
+}
+
 body {
   background-color: #f3e8de;
 }
@@ -6,9 +33,51 @@ body {
   margin: 10px;
 }
 
-footer {
+.nav-link {
+  color: #53331e;
+}
+
+.nav-link:hover {
+  color: #b74c2c;
+}
+
+.card-title {
+  color: #b74c2c;
+}
+
+.col {
+  margin-bottom: 40px;
+}
+
+.row {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.carousel {
+  margin: 10px;
+}
+
+.overlay {
+  position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+body {
+  background-color: #f3e8de;
+}
+
+.card {
+  margin: 10px;
 }
 
 .nav-link {
@@ -30,11 +99,6 @@ footer {
 
 .card-title {
   color: #b74c2c;
-}
-
-.texto_footer {
-  margin-top: 5px;
-  color: #f3e8de;
 }
 
 .col {
@@ -82,30 +146,6 @@ footer {
 
 .portfolio-item:hover .overlay {
   opacity: 1;
-}
-
-.btn-ver-mas {
-  margin-top: 10px;
-}
-
-.texto-primario {
-  color: #b74c2c;
-}
-
-.texto-secundario {
-  color: #53331e;
-}
-
-.boton-root {
-  background-color: #b74c2c;
-  border: #b74c2c;
-  color: #f3e8de;
-}
-
-.boton-root:hover {
-  background-color: #d58f52;
-  border: #d58f52;
-  color: #53331e;
 }
 
 /*# sourceMappingURL=style.css.map */

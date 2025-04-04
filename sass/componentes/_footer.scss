@@ -1,0 +1,22 @@
+// Modulos a Importar
+@use "./colores";
+
+// Específicos
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+.texto_footer {
+    margin-top: 5px;
+    color: colores.$color_ceniza;
+}
+
+.enlaces_footer {
+    text-decoration: none;
+    color: colores.$color_naranja;
+}
+
+.enlaces_footer:hover {
+    color: colores.$color_mostaza;
+}

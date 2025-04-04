@@ -1,0 +1,20 @@
+// Modulos a Importar
+@use "./colores";
+
+// Específicos
+.btn-ver-mas {
+    margin-top: 10px;
+  }
+  
+.boton-root {
+    background-color: colores.$color_naranja;
+    border: colores.$color_naranja;
+    color: colores.$color_ceniza;
+}
+  
+.boton-root:hover {
+    background-color: colores.$color_mostaza;
+    border: colores.$color_mostaza;
+    color: colores.$color_marron;
+}
+
